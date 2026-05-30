@@ -604,3 +604,8 @@ footer {
 .nav-links a:hover{
     color:#ffd700;
 }
+.btn.small{
+    border-radius:30px;
+    font-weight:bold;
+    letter-spacing:0.5px;
+}

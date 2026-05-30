@@ -591,3 +591,9 @@ footer {
     transform: translateY(-10px);
     box-shadow: 0 12px 30px rgba(0,0,0,0.2);
 }
+.footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}

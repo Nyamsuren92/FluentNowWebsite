@@ -609,3 +609,15 @@ footer {
     font-weight:bold;
     letter-spacing:0.5px;
 }
+.search-section{
+    text-align:center;
+    margin:30px 0;
+}
+
+.search-section input{
+    width:300px;
+    padding:12px 20px;
+    border-radius:25px;
+    border:1px solid #ddd;
+    font-size:16px;
+}

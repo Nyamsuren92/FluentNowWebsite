@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products - FluentNow</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header>
+  <nav class="navbar">
+    <h2 class="logo">FluentNow</h2>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Lessons</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <a href="#" class="btn small">Sign up</a>
+  </nav>
+</header>
+
+<section class="products">
+  <h2>Our Courses</h2>
+
+  <div id="product-list" class="product-list"></div>
+</section>
+
+<section class="basket-section">
+  <h2>Your Basket</h2>
+
+  <div id="basket-list"></div>
+
+  <button onclick="checkout()" class="checkout-btn">
+    Checkout
+  </button>
+</section>
+
+</body>
+</html>
